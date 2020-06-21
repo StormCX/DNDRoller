@@ -1,5 +1,5 @@
 DNDRoller
-DNDROLLER made by Nader K. Atout	6/20/2020
+> Made by Nader K. Atout	6/20/2020
 
 > You can exit the program at any time by typing "Exit" (it is NOT case sensitive).
 > All inputs must be in the format of:	[Number of Dice][the letter "d"][Die Faces]

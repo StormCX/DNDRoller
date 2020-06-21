@@ -1,5 +1,5 @@
-DNDRoller
-> Made by Nader K. Atout	6/20/2020
+#DNDRoller
+Made by Nader K. Atout	6/20/2020
 
 > You can exit the program at any time by typing "Exit" (it is NOT case sensitive).
 

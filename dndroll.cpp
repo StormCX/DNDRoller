@@ -25,20 +25,20 @@ int main()
 			if (ans.size() < 3)
 				throw 3;
 
-			//finds "d", then splits int parts into substrings for simplicity.
+			//finds "d", then splits int parts into substrings for simplicitys
 			int x = ans.find("d");
 			std::string a = ans.substr(0, x);
 			std::string b = ans.substr(x + 1, ans.size() - 1);
 			n = stoi(a);
 			d = stoi(b);
 		}
-		catch (...) 
+		catch (...)		
 		{
 			std::cout << "| Error! Invalid input. Try again..." << std::endl;
 			continue;
 		}
 		
-		for (int i = 0; i < n; ++i) 
+		for (int i = 0; i < n; ++i)		//displays results
 		{
 			int x = rand() % d + 1;
 			std::cout << "| Roll: " << x << std::endl;

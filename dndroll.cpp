@@ -25,6 +25,7 @@ int main()
 			if (ans.size() < 3)
 				throw 3;
 
+			//finds "d", then splits int parts into substrings for simplicity.
 			int x = ans.find("d");
 			std::string a = ans.substr(0, x);
 			std::string b = ans.substr(x + 1, ans.size() - 1);

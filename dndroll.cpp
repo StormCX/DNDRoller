@@ -7,7 +7,7 @@ int main()
 	//initialization
 	int n, d;
 	std::cout << "\n| Welcome to the D&D Die Roller!";
-	std::cout << "\n| Created by Nader K. Atout" << std::endl;	//open message.
+	std::cout << "\n| Created by Nader K. Atout" << std::endl;	
 
 	while (1) 
 	{
